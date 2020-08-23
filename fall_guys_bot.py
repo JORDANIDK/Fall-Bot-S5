@@ -12,18 +12,8 @@ class FullHD():
          print ("Lobby")
          pyautogui.click(lobby)
          pyautogui.press("space")
-         e.matching()
+         e.ingame()
          break
-     
-    def matching(self):
-     while True:
-         e.error()
-         match = pyautogui.locateOnScreen("1080\search.png")
-         if match !=None:
-             print ("Matching")
-             e.ingame()
-             break
-         
             
     def ingame(self):    
      while True:
@@ -40,6 +30,7 @@ class FullHD():
          salir = pyautogui.locateOnScreen("1080\exit.png")
          if salir != None:
              print ("exit found")
+             pyautogui.click(salir)
              time.sleep(3)
              pyautogui.press("esc")
              e.ok()
@@ -51,6 +42,7 @@ class FullHD():
          ok1 = pyautogui.locateOnScreen("1080\ok.png")
          if ok1 != None:
              print ("ok")
+             pyautogui.click(ok)
              pyautogui.press("space")
              e.results()
              break
@@ -62,6 +54,7 @@ class FullHD():
         result = pyautogui.locateOnScreen("1080\endgame.png")
         if result !=None:
             time.sleep(7)
+            pyautogui.click(result)
             pyautogui.press("space")
             global money
             global exp
@@ -85,31 +78,23 @@ class FullHD():
           e.lobby()
 class HD():
     def lobby(self):
-     while True:  
+     while True:
+        print("Waiting lobby")
         lobby = pyautogui.locateOnScreen("720\lobby.png",)
         i.error()
         if lobby !=None:
          print ("Lobby")
          pyautogui.click(lobby)
          pyautogui.press("space")
-         i.matching()
+         i.ingame()
          break
-     
-    def matching(self):
-     while True:
-         i.error()
-         match = pyautogui.locateOnScreen("720\search.png",confidence=0.6)
-         if match !=None:
-             print ("Matching")
-             i.ingame()
-             break
          
-            
     def ingame(self):    
      while True:
          i.error()
          ingame = pyautogui.locateOnScreen("720\ingame.png")   
          if ingame !=None:
+            pyautogui.click(ingame)
             print ("Ingame")
             i.exit()
             break
@@ -121,6 +106,7 @@ class HD():
          if salir != None:
              print ("exit found")
              time.sleep(3)
+             pyautogui.click(salir)
              pyautogui.press("esc")
              i.ok()
              break  
@@ -131,6 +117,7 @@ class HD():
          ok1 = pyautogui.locateOnScreen("720\ok.png")
          if ok1 != None:
              print ("ok")
+             pyautogui.click(ok1)
              pyautogui.press("space")
              i.results()
              break
@@ -142,6 +129,7 @@ class HD():
         result = pyautogui.locateOnScreen("720\endgame.png")
         if result !=None:
             time.sleep(7)
+            pyautogui.click(result)
             pyautogui.press("space")
             global money
             global exp
@@ -165,31 +153,23 @@ class HD():
           i.lobby()
 class FullHDLow():
     def lobby(self):
-     while True:  
+     while True:
+        print("Waiting lobby")
         lobby = pyautogui.locateOnScreen("1080\lobby.png",confidence=0.6)
         o.error()
         if lobby !=None:
          print ("Lobby")
          pyautogui.click(lobby)
          pyautogui.press("space")
-         o.matching()
+         o.ingame()
          break
-     
-    def matching(self):
-     while True:
-         o.error()
-         match = pyautogui.locateOnScreen("1080\search.png",confidence=0.6)
-         if match !=None:
-             print ("Matching")
-             o.ingame()
-             break
-         
-            
+                  
     def ingame(self):    
      while True:
          o.error()
          ingame = pyautogui.locateOnScreen("1080\ingame.png",confidence=0.6)   
          if ingame !=None:
+            pyautogui.click(ingame)
             print ("Ingame")
             o.exit()
             break
@@ -201,6 +181,7 @@ class FullHDLow():
          if salir != None:
              print ("exit found")
              time.sleep(3)
+             pyautogui.click(salir)
              pyautogui.press("esc")
              o.ok()
              break  
@@ -211,6 +192,7 @@ class FullHDLow():
          ok1 = pyautogui.locateOnScreen("1080\ok.png",confidence=0.6)
          if ok1 != None:
              print ("ok")
+             pyautogui.click(ok1)
              pyautogui.press("space")
              e.results()
              break
@@ -222,6 +204,7 @@ class FullHDLow():
         result = pyautogui.locateOnScreen("1080\endgame.png",confidence=0.6)
         if result !=None:
             time.sleep(7)
+            pyautogui.click(result)
             pyautogui.press("space")
             global money
             global exp
@@ -245,31 +228,22 @@ class FullHDLow():
           o.lobby()
 class HDLow():
     def lobby(self):
-     while True:  
+     while True:
+        print("Waiting lobby")
         lobby = pyautogui.locateOnScreen("720\lobby.png",confidence=0.6)
         u.error()
         if lobby !=None:
          print ("Lobby")
          pyautogui.click(lobby)
          pyautogui.press("space")
-         u.matching()
-         break
-     
-    def matching(self):
-     while True:
-         u.error()
-         match = pyautogui.locateOnScreen("720\search.png",confidence=0.6)
-         if match !=None:
-             print ("Matching")
-             u.ingame()
-             break
-         
-            
+         u.ingame()
+         break          
     def ingame(self):    
      while True:
          u.error()
          ingame = pyautogui.locateOnScreen("720\ingame.png",confidence=0.6)   
          if ingame !=None:
+            pyautogui.click(ingame)
             print ("Ingame")
             u.exit()
             break
@@ -281,6 +255,7 @@ class HDLow():
          if salir != None:
              print ("exit found")
              time.sleep(3)
+             pyautogui.click(salir)
              pyautogui.press("esc")
              u.ok()
              break  
@@ -291,6 +266,7 @@ class HDLow():
          ok1 = pyautogui.locateOnScreen("720\ok.png",confidence=0.6)
          if ok1 != None:
              print ("ok")
+             pyautogui.click(ok1)
              pyautogui.press("space")
              u.results()
              break
@@ -302,6 +278,7 @@ class HDLow():
         result = pyautogui.locateOnScreen("720\endgame.png",confidence=0.6)
         if result !=None:
             time.sleep(7)
+            pyautogui.click(result)
             pyautogui.press("space")
             global money
             global exp
@@ -339,10 +316,6 @@ def checkresolution():
             u.lobby()
  
 
-
-
-    
-
 e = FullHD()
 i = HD()
 o = FullHDLow()
@@ -360,8 +333,6 @@ print ("Auto-Select = 3")
 
 
 menu = int(input("enter your option : "))
-
-
 
 
 if menu == 1:
