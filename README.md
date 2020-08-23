@@ -4,13 +4,15 @@ Basic bot for farm exp and money in fall guys
 
 
 changelogs:
-v3 21/08/20
-- add 720p resolution
-- fixed some bugs in 1080p
-- look settings https://imgur.com/a/pXHSA3k 
 
-v4 22/08/20
-- add auto-check resolution option 3
-- add low-hitchance mode for some people no work 1080 or 720 (select option 3)
+the game in english!!!
 
-* In 720p mode no work check connection error (next update fix)
+1.- Install python
+2.- Open .bat with adm for install libs.
+3.- open fall guys.
+4.- open bot, select option and go fall guys lobby.
+5.- ready.
+
+
+add me in discord if you need help
+jordan123pal#4855
