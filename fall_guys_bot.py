@@ -4,7 +4,8 @@ import time
 
 class FullHD():
     def lobby(self):
-     while True:  
+     while True:
+        print("Waiting lobby")
         lobby = pyautogui.locateOnScreen("1080\lobby.png",)
         e.error()
         if lobby !=None:
@@ -322,9 +323,6 @@ class HDLow():
           pyautogui.click()
           pyautogui.press("enter")
           u.lobby()
-
-
-
 def checkresolution():
     while True:
         fullhd = pyautogui.locateOnScreen("1080\lobby.png")
@@ -339,13 +337,17 @@ def checkresolution():
         hdlow = pyautogui.locateOnScreen("720\lobby.png", confidence=0.6)
         if hdlow !=None:
             u.lobby()
-       
+ 
+
+
+
     
 
 e = FullHD()
 i = HD()
 o = FullHDLow()
 u = HDLow()
+
 
 
 money = 0
