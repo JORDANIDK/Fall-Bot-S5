@@ -27,4 +27,4 @@ CHANGELOGS:
  
  * Fixed bug of exit of a game and results no go lobby 
  
- * Next update connection error fix
+ * add some checks for connection error 
