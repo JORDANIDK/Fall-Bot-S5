@@ -251,7 +251,7 @@ class HDLow():
     def exit(self):
       while True:
          u.error()
-         salir = pyautogui.locateOnScreen("720\exit.png",confidence=0.6)
+         salir = pyautogui.locateOnScreen("720\exit.png",confidence=0.7)
          if salir != None:
              print ("exit found")
              time.sleep(2)
@@ -262,7 +262,7 @@ class HDLow():
     def ok(self):
       while True:
          u.error()
-         ok1 = pyautogui.locateOnScreen("720\ok.png",confidence=0.6)
+         ok1 = pyautogui.locateOnScreen("720\ok.png",confidence=0.7)
          if ok1 != None:
              print ("ok")
              time.sleep(1)
@@ -276,6 +276,7 @@ class HDLow():
         time.sleep(1)
         result = pyautogui.locateOnScreen("720\endgame.png",confidence=0.6)
         if result !=None:
+            print("results")
             time.sleep(7)
             pyautogui.click(result)
             pyautogui.press("space")
