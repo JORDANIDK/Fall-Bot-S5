@@ -21,7 +21,7 @@ the game in english!!!
 
 CHANGELOGS:
 
-24/08/20
+- 24/08/20
 
  * other resolution work fine with 1176x664 :D
  
