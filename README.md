@@ -19,7 +19,7 @@ add me in discord if you need help
 jordan123pal#4855
 
 
-changelogs
+*CHANGELOGS:
 
 24/08/20
 
