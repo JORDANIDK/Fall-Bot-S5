@@ -138,17 +138,19 @@ class HD():
             i.lobby()
 
     def error(self):
-         disc = pyautogui.locateOnScreen("1080\disconnected.png",confidence=0.6)
-         connect = pyautogui.locateOnScreen("1080\connect.png", confidence=0.6)
-         connect2 = pyautogui.locateOnScreen("1080\error2.png", confidence=0.6)
-         connect3 = pyautogui.locateOnScreen("1080\error3.png", confidence=0.6)
-         if connect != None or disc !=None or connect2 != None or connect3 != None :
+         connect_error = pyautogui.locateOnScreen("720\connect_error.png")
+         error = pyautogui.locateOnScreen("720\error.png")
+         server_timed_out = pyautogui.locateOnScreen("720\server_timed_out.png")
+         if connect_error != None or error !=None or server_timed_out !=None:
           print ("error")
+          pyautogui.click(error)
+          pyautogui.click(connect_error)
+          pyautogui.click(server_timed_out)
           pyautogui.press("space")
           time.sleep(1)
           pyautogui.click()
           pyautogui.press("enter")
-          i.lobby()
+          i.lobby()         
 class FullHDLow():
     def lobby(self):
      while True:
@@ -286,12 +288,14 @@ class HDLow():
             u.lobby()
 
     def error(self):
-         disc = pyautogui.locateOnScreen("1080\disconnected.png",confidence=0.6)
-         connect = pyautogui.locateOnScreen("1080\connect.png", confidence=0.6)
-         connect2 = pyautogui.locateOnScreen("1080\error2.png", confidence=0.6)
-         connect3 = pyautogui.locateOnScreen("1080\error3.png", confidence=0.6)
-         if connect != None or disc !=None or connect2 != None or connect3 != None :
+         connect_error = pyautogui.locateOnScreen("720\connect_error.png",confidence=0.6)
+         error = pyautogui.locateOnScreen("720\error.png", confidence=0.6)
+         server_timed_out = pyautogui.locateOnScreen("720\server_timed_out.png",confidence=0.6)
+         if connect_error != None or error !=None or server_timed_out !=None:
           print ("error")
+          pyautogui.click(error)
+          pyautogui.click(connect_error)
+          pyautogui.click(server_timed_out)
           pyautogui.press("space")
           time.sleep(1)
           pyautogui.click()
