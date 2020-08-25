@@ -4,7 +4,7 @@ Basic bot for farm exp and money in fall guys
 
 the game in english!!!
 
-1.- Install python
+1. * Install python
 
 2.- Open .bat with adm for install libs.
 
