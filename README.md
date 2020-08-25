@@ -23,7 +23,7 @@ CHANGELOGS:
 
 - 24/08/20
 
- * other resolution work fine with 1176x664 :D
+ * other resolution work fine now with 1176x664 :D
  
  * Fixed bug of exit of a game and results no go lobby 
  
