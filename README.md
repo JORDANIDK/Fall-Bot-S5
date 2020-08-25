@@ -6,13 +6,13 @@ the game in english!!!
 
 1. * Install python
 
-2.- Open .bat with adm for install libs.
+2. * Open .bat with adm for install libs.
 
-3.- open fall guys.
+3. * open fall guys.
 
-4.- open bot, select option and go fall guys lobby.
+4. * open bot, select option and go fall guys lobby.
 
-5.- ready.
+5. * ready.
 
 
 add me in discord if you need help
@@ -23,8 +23,8 @@ changelogs
 
 24/08/20
 
- -other resolution work fine with 1176x664 :D
+ * other resolution work fine with 1176x664 :D
  
- -Fixed bug of exit of a game and results no go lobby 
+ * Fixed bug of exit of a game and results no go lobby 
  
- -Next update connection error fix
+ * Next update connection error fix
