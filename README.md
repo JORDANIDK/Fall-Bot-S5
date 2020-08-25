@@ -15,11 +15,11 @@ the game in english!!!
 5. * ready.
 
 
-add me in discord if you need help
-jordan123pal#4855
+-add me in discord if you need help
+-jordan123pal#4855
 
 
-*CHANGELOGS:
+CHANGELOGS:
 
 24/08/20
 
