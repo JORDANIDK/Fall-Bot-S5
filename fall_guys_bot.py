@@ -30,11 +30,10 @@ class FullHD():
          salir = pyautogui.locateOnScreen("1080\exit.png")
          if salir != None:
              print ("exit found")
-             pyautogui.click(salir)
-             time.sleep(3)
+             time.sleep(2)
              pyautogui.press("esc")
              e.ok()
-             break  
+             break   
              
     def ok(self):
       while True:
@@ -42,7 +41,7 @@ class FullHD():
          ok1 = pyautogui.locateOnScreen("1080\ok.png")
          if ok1 != None:
              print ("ok")
-             pyautogui.click(ok)
+             time.sleep(1)
              pyautogui.press("space")
              e.results()
              break
@@ -105,8 +104,7 @@ class HD():
          salir = pyautogui.locateOnScreen("720\exit.png")
          if salir != None:
              print ("exit found")
-             time.sleep(3)
-             pyautogui.click(salir)
+             time.sleep(2)
              pyautogui.press("esc")
              i.ok()
              break  
@@ -117,7 +115,7 @@ class HD():
          ok1 = pyautogui.locateOnScreen("720\ok.png")
          if ok1 != None:
              print ("ok")
-             pyautogui.click(ok1)
+             time.sleep(1)
              pyautogui.press("space")
              i.results()
              break
@@ -180,8 +178,7 @@ class FullHDLow():
          salir = pyautogui.locateOnScreen("1080\exit.png",confidence=0.6)
          if salir != None:
              print ("exit found")
-             time.sleep(3)
-             pyautogui.click(salir)
+             time.sleep(2)
              pyautogui.press("esc")
              o.ok()
              break  
@@ -192,7 +189,7 @@ class FullHDLow():
          ok1 = pyautogui.locateOnScreen("1080\ok.png",confidence=0.6)
          if ok1 != None:
              print ("ok")
-             pyautogui.click(ok1)
+             time.sleep(1)
              pyautogui.press("space")
              e.results()
              break
@@ -230,14 +227,15 @@ class HDLow():
     def lobby(self):
      while True:
         print("Waiting lobby")
-        lobby = pyautogui.locateOnScreen("720\lobby.png",confidence=0.6)
+        lobby = pyautogui.locateOnScreen("720\lobby.png",confidence=0.7)
         u.error()
         if lobby !=None:
          print ("Lobby")
          pyautogui.click(lobby)
          pyautogui.press("space")
          u.ingame()
-         break          
+         break     
+         
     def ingame(self):    
      while True:
          u.error()
@@ -254,8 +252,7 @@ class HDLow():
          salir = pyautogui.locateOnScreen("720\exit.png",confidence=0.6)
          if salir != None:
              print ("exit found")
-             time.sleep(3)
-             pyautogui.click(salir)
+             time.sleep(2)
              pyautogui.press("esc")
              u.ok()
              break  
@@ -266,7 +263,7 @@ class HDLow():
          ok1 = pyautogui.locateOnScreen("720\ok.png",confidence=0.6)
          if ok1 != None:
              print ("ok")
-             pyautogui.click(ok1)
+             time.sleep(1)
              pyautogui.press("space")
              u.results()
              break
@@ -304,17 +301,23 @@ def checkresolution():
     while True:
         fullhd = pyautogui.locateOnScreen("1080\lobby.png")
         if fullhd !=None:
+            print("1080")
             e.lobby()
         hd = pyautogui.locateOnScreen("720\lobby.png")
         if hd !=None:
+            print("720")
             i.lobby()
-        fullhdlow = pyautogui.locateOnScreen("1080\lobby.png", confidence=0.6)
+        fullhdlow = pyautogui.locateOnScreen("1080\lobby.png", confidence=0.7)
         if fullhdlow != None:
+            print("1080 Low")
             o.lobby()
-        hdlow = pyautogui.locateOnScreen("720\lobby.png", confidence=0.6)
+        hdlow = pyautogui.locateOnScreen("720\lobby.png", confidence=0.7)
         if hdlow !=None:
+            print("720 Low")
             u.lobby()
  
+
+
 
 e = FullHD()
 i = HD()
@@ -322,15 +325,15 @@ o = FullHDLow()
 u = HDLow()
 
 
-
 money = 0
 exp = 0 
 
-
-print ('1920x1080 = 1')
-print ("1280x720 = 2 ")
-print ("Auto-Select = 3")
-
+print (" ****************************")
+print (" *     1920x1080 = 1        *")
+print (" *     1280x720  = 2        *")
+print (" *    Other resolution = 3  *")
+print (" *                          *")
+print (" ****************************")
 
 menu = int(input("enter your option : "))
 
@@ -339,9 +342,8 @@ if menu == 1:
     e.lobby()
 if menu == 2:
     i.lobby()
-
 if menu == 3:
-    checkresolution()
-        
+    checkresolution()   
+    
 if menu <3 or menu >1:
     print ("error")
