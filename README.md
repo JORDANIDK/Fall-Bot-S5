@@ -29,10 +29,9 @@ CHANGELOGS:
  
  * add some checks for connection error 
 
+
+
 - 26/08/20
-
-update
-
 * add check for lvl up
 * removed option 1 and 2
 * add option auto checking resolution
