@@ -55,6 +55,8 @@ class FullHD():
             time.sleep(7)
             pyautogui.click(result)
             pyautogui.press("space")
+            time.sleep(3)
+            pyautogui.press("space")
             global money
             global exp
             money=money+30
@@ -128,6 +130,8 @@ class HD():
         if result !=None:
             time.sleep(7)
             pyautogui.click(result)
+            pyautogui.press("space")
+            time.sleep(3)
             pyautogui.press("space")
             global money
             global exp
@@ -205,6 +209,8 @@ class FullHDLow():
             time.sleep(7)
             pyautogui.click(result)
             pyautogui.press("space")
+            time.sleep(3)
+            pyautogui.press("space")
             global money
             global exp
             money=money+30
@@ -280,6 +286,8 @@ class HDLow():
             time.sleep(7)
             pyautogui.click(result)
             pyautogui.press("space")
+            time.sleep(3)
+            pyautogui.press("space")
             global money
             global exp
             money=money+30
@@ -334,21 +342,15 @@ money = 0
 exp = 0 
 
 print (" ****************************")
-print (" *     1920x1080 = 1        *")
-print (" *     1280x720  = 2        *")
-print (" *    Other resolution = 3  *")
+print (" *     start = 1            *")
 print (" *                          *")
 print (" ****************************")
 
 menu = int(input("enter your option : "))
 
-
 if menu == 1:
-    e.lobby()
-if menu == 2:
-    i.lobby()
-if menu == 3:
+    print ("checking...")
     checkresolution()   
     
-if menu <3 or menu >1:
+if menu <2 or menu >1:
     print ("error")
