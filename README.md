@@ -28,3 +28,11 @@ CHANGELOGS:
  * Fixed bug of exit of a game and results no go lobby 
  
  * add some checks for connection error 
+
+- 26/08/20
+
+update
+
+* add check for lvl up
+* removed option 1 and 2
+* add option auto checking resolution
