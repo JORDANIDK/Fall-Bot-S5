@@ -1,5 +1,4 @@
 import time
-
 import pyautogui
 
 
@@ -8,7 +7,7 @@ class FullHD:
     def lobby():
         while True:
             print("Waiting lobby")
-            lobby = pyautogui.locateOnScreen("1080\lobby.png")
+            lobby = pyautogui.locateOnScreen("1080\lobby.png", grayscale=True)
             e.error()
             if lobby is not None:
                 print("Lobby")
@@ -21,7 +20,7 @@ class FullHD:
     def ingame():
         while True:
             e.error()
-            ingame = pyautogui.locateOnScreen("1080\ingame.png")
+            ingame = pyautogui.locateOnScreen("1080\ingame.png", grayscale=True)
             if ingame is not None:
                 print("Ingame")
                 e.exit()
@@ -31,7 +30,7 @@ class FullHD:
     def exit():
         while True:
             e.error()
-            salir = pyautogui.locateOnScreen("1080\exit.png")
+            salir = pyautogui.locateOnScreen("1080\exit.png", grayscale=True)
             if salir is not None:
                 print("exit found")
                 time.sleep(2)
@@ -43,7 +42,7 @@ class FullHD:
     def ok():
         while True:
             e.error()
-            ok1 = pyautogui.locateOnScreen("1080\ok.png")
+            ok1 = pyautogui.locateOnScreen("1080\ok.png", grayscale=True)
             if ok1 is not None:
                 print("ok")
                 time.sleep(1)
@@ -56,7 +55,7 @@ class FullHD:
         while True:
             e.error()
             time.sleep(1)
-            result = pyautogui.locateOnScreen("1080\endgame.png")
+            result = pyautogui.locateOnScreen("1080\endgame.png", grayscale=True)
             if result is not None:
                 time.sleep(7)
                 pyautogui.click(result)
@@ -73,10 +72,10 @@ class FullHD:
 
     @staticmethod
     def error():
-        disc = pyautogui.locateOnScreen("1080\disconnected.png", confidence=0.6)
-        connect = pyautogui.locateOnScreen("1080\connect.png", confidence=0.6)
-        connect2 = pyautogui.locateOnScreen("1080\error2.png", confidence=0.6)
-        connect3 = pyautogui.locateOnScreen("1080\error3.png", confidence=0.6)
+        disc = pyautogui.locateOnScreen("1080\disconnected.png", confidence=0.6, grayscale=True)
+        connect = pyautogui.locateOnScreen("1080\connect.png", confidence=0.6, grayscale=True)
+        connect2 = pyautogui.locateOnScreen("1080\error2.png", confidence=0.6, grayscale=True)
+        connect3 = pyautogui.locateOnScreen("1080\error3.png", confidence=0.6, grayscale=True)
         if connect is not None or disc is not None or connect2 is not None or connect3 is not None:
             print("error")
             pyautogui.press("space")
@@ -91,7 +90,7 @@ class HD:
     def lobby():
         while True:
             print("Waiting lobby")
-            lobby = pyautogui.locateOnScreen("720\lobby.png", )
+            lobby = pyautogui.locateOnScreen("720\lobby.png", grayscale=True )
             i.error()
             if lobby is not None:
                 print("Lobby")
@@ -104,7 +103,7 @@ class HD:
     def ingame():
         while True:
             i.error()
-            ingame = pyautogui.locateOnScreen("720\ingame.png")
+            ingame = pyautogui.locateOnScreen("720\ingame.png", grayscale=True)
             if ingame is not None:
                 pyautogui.click(ingame)
                 print("Ingame")
@@ -114,7 +113,7 @@ class HD:
     def exit(self):
         while True:
             i.error()
-            salir = pyautogui.locateOnScreen("720\exit.png")
+            salir = pyautogui.locateOnScreen("720\exit.png", grayscale=True)
             if salir is not None:
                 print("exit found")
                 time.sleep(2)
@@ -125,7 +124,7 @@ class HD:
     def ok(self):
         while True:
             i.error()
-            ok1 = pyautogui.locateOnScreen("720\ok.png")
+            ok1 = pyautogui.locateOnScreen("720\ok.png", grayscale=True)
             if ok1 is not None:
                 print("ok")
                 time.sleep(1)
@@ -137,7 +136,7 @@ class HD:
         while True:
             i.error()
             time.sleep(1)
-            result = pyautogui.locateOnScreen("720\endgame.png")
+            result = pyautogui.locateOnScreen("720\endgame.png", grayscale=True)
             if result is not None:
                 time.sleep(7)
                 pyautogui.click(result)
@@ -154,9 +153,9 @@ class HD:
 
     @staticmethod
     def error():
-        connect_error = pyautogui.locateOnScreen("720\connect_error.png")
-        error = pyautogui.locateOnScreen("720\error.png")
-        server_timed_out = pyautogui.locateOnScreen("720\server_timed_out.png")
+        connect_error = pyautogui.locateOnScreen("720\connect_error.png", grayscale=True)
+        error = pyautogui.locateOnScreen("720\error.png", grayscale=True)
+        server_timed_out = pyautogui.locateOnScreen("720\server_timed_out.png", grayscale=True)
         if connect_error is not None or error is not None or server_timed_out is not None:
             print("error")
             pyautogui.click(error)
@@ -174,7 +173,7 @@ class FullHDLow:
     def lobby():
         while True:
             print("Waiting lobby")
-            lobby = pyautogui.locateOnScreen("1080\lobby.png", confidence=0.6)
+            lobby = pyautogui.locateOnScreen("1080\lobby.png", confidence=0.6, grayscale=True)
             o.error()
             if lobby is not None:
                 print("Lobby")
@@ -187,7 +186,7 @@ class FullHDLow:
     def ingame():
         while True:
             o.error()
-            ingame = pyautogui.locateOnScreen("1080\ingame.png", confidence=0.6)
+            ingame = pyautogui.locateOnScreen("1080\ingame.png", confidence=0.6, grayscale=True)
             if ingame is not None:
                 pyautogui.click(ingame)
                 print("Ingame")
@@ -198,7 +197,7 @@ class FullHDLow:
     def exit():
         while True:
             o.error()
-            salir = pyautogui.locateOnScreen("1080\exit.png", confidence=0.6)
+            salir = pyautogui.locateOnScreen("1080\exit.png", confidence=0.6, grayscale=True)
             if salir is not None:
                 print("exit found")
                 time.sleep(2)
@@ -210,7 +209,7 @@ class FullHDLow:
     def ok():
         while True:
             o.error()
-            ok1 = pyautogui.locateOnScreen("1080\ok.png", confidence=0.6)
+            ok1 = pyautogui.locateOnScreen("1080\ok.png", confidence=0.6, grayscale=True)
             if ok1 is not None:
                 print("ok")
                 time.sleep(1)
@@ -223,7 +222,7 @@ class FullHDLow:
         while True:
             o.error()
             time.sleep(1)
-            result = pyautogui.locateOnScreen("1080\endgame.png", confidence=0.6)
+            result = pyautogui.locateOnScreen("1080\endgame.png", confidence=0.6, grayscale=True)
             if result is not None:
                 time.sleep(7)
                 pyautogui.click(result)
@@ -240,10 +239,10 @@ class FullHDLow:
 
     @staticmethod
     def error():
-        disc = pyautogui.locateOnScreen("1080\disconnected.png", confidence=0.6)
-        connect = pyautogui.locateOnScreen("1080\connect.png", confidence=0.6)
-        connect2 = pyautogui.locateOnScreen("1080\error2.png", confidence=0.6)
-        connect3 = pyautogui.locateOnScreen("1080\error3.png", confidence=0.6)
+        disc = pyautogui.locateOnScreen("1080\disconnected.png", confidence=0.6, grayscale=True)
+        connect = pyautogui.locateOnScreen("1080\connect.png", confidence=0.6, grayscale=True)
+        connect2 = pyautogui.locateOnScreen("1080\error2.png", confidence=0.6, grayscale=True)
+        connect3 = pyautogui.locateOnScreen("1080\error3.png", confidence=0.6, grayscale=True)
         if connect is not None or disc is not None or connect2 is not None or connect3 is not None:
             print("error")
             pyautogui.press("space")
@@ -258,7 +257,7 @@ class HDLow:
     def lobby():
         while True:
             print("Waiting lobby")
-            lobby = pyautogui.locateOnScreen("720\lobby.png", confidence=0.7)
+            lobby = pyautogui.locateOnScreen("720\lobby.png", confidence=0.7, grayscale=True)
             u.error()
             if lobby is not None:
                 print("Lobby")
@@ -271,7 +270,7 @@ class HDLow:
     def ingame():
         while True:
             u.error()
-            ingame = pyautogui.locateOnScreen("720\ingame.png", confidence=0.6)
+            ingame = pyautogui.locateOnScreen("720\ingame.png", confidence=0.6, grayscale=True)
             if ingame is not None:
                 pyautogui.click(ingame)
                 print("Ingame")
@@ -282,7 +281,7 @@ class HDLow:
     def exit():
         while True:
             u.error()
-            salir = pyautogui.locateOnScreen("720\exit.png", confidence=0.7)
+            salir = pyautogui.locateOnScreen("720\exit.png", confidence=0.7, grayscale=True)
             if salir is not None:
                 print("exit found")
                 time.sleep(2)
@@ -294,7 +293,7 @@ class HDLow:
     def ok():
         while True:
             u.error()
-            ok1 = pyautogui.locateOnScreen("720\ok.png", confidence=0.7)
+            ok1 = pyautogui.locateOnScreen("720\ok.png", confidence=0.7, grayscale=True)
             if ok1 is not None:
                 print("ok")
                 time.sleep(1)
@@ -307,7 +306,7 @@ class HDLow:
         while True:
             u.error()
             time.sleep(1)
-            result = pyautogui.locateOnScreen("720\endgame.png", confidence=0.6)
+            result = pyautogui.locateOnScreen("720\endgame.png", confidence=0.6, grayscale=True)
             if result is not None:
                 print("results")
                 time.sleep(7)
@@ -325,9 +324,9 @@ class HDLow:
 
     @staticmethod
     def error():
-        connect_error = pyautogui.locateOnScreen("720\connect_error.png", confidence=0.6)
-        error = pyautogui.locateOnScreen("720\error.png", confidence=0.6)
-        server_timed_out = pyautogui.locateOnScreen("720\server_timed_out.png", confidence=0.6)
+        connect_error = pyautogui.locateOnScreen("720\connect_error.png", confidence=0.6, grayscale=True)
+        error = pyautogui.locateOnScreen("720\error.png", confidence=0.6, grayscale=True)
+        server_timed_out = pyautogui.locateOnScreen("720\server_timed_out.png", confidence=0.6, grayscale=True)
         if connect_error is not None or error is not None or server_timed_out is not None:
             print("error")
             pyautogui.click(error)
@@ -342,19 +341,19 @@ class HDLow:
 
 def checkresolution():
     while True:
-        fullhd = pyautogui.locateOnScreen("1080\lobby.png")
+        fullhd = pyautogui.locateOnScreen("1080\lobby.png", grayscale=True)
         if fullhd is not None:
             print("1080")
             e.lobby()
-        hd = pyautogui.locateOnScreen("720\lobby.png")
+        hd = pyautogui.locateOnScreen("720\lobby.png", grayscale=True)
         if hd is not None:
             print("720")
             i.lobby()
-        fullhdlow = pyautogui.locateOnScreen("1080\lobby.png", confidence=0.7)
+        fullhdlow = pyautogui.locateOnScreen("1080\lobby.png", confidence=0.7, grayscale=True)
         if fullhdlow is not None:
             print("1080 Low")
             o.lobby()
-        hdlow = pyautogui.locateOnScreen("720\lobby.png", confidence=0.7)
+        hdlow = pyautogui.locateOnScreen("720\lobby.png", confidence=0.7, grayscale=True)
         if hdlow is not None:
             print("720 Low")
             u.lobby()
