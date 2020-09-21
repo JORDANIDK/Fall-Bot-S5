@@ -214,7 +214,7 @@ class FullHDLow:
                 print("ok")
                 time.sleep(1)
                 pyautogui.press("space")
-                e.results()
+                o.results()
                 break
 
     @staticmethod
