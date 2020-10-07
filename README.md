@@ -4,13 +4,13 @@ Basic bot for farm exp and money in fall guys
 
 the game in english!!!
 
-1. * Install python
+1. * Install python(3.8.5 32 bits)
 
-2. * Open .bat with adm for install libs.
+2. * Open .bat with admin for install libs.
 
 3. * open fall guys.
 
-4. * open bot, select option and go fall guys lobby.
+4. * open bot, enter 1 and go fall guys lobby.
 
 5. * ready.
 
@@ -18,20 +18,3 @@ the game in english!!!
 - add me in discord if you need help
 - jordan123pal#4855
 
-
-CHANGELOGS:
-
-- 24/08/20
-
- * other resolution work fine now with 1176x664 :D
- 
- * Fixed bug of exit of a game and results no go lobby 
- 
- * add some checks for connection error 
-
-
-
-- 26/08/20
-* add check for lvl up
-* removed option 1 and 2
-* add option auto checking resolution
