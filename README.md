@@ -19,7 +19,7 @@ Update 10/10/20
 
 - Support for new season
 - Rewrite code
-- status in beta have errors
+- status in beta have errors (1080 and 720 Work fine, other resolution idk)
 
 # Errors talk with me
 - add me in discord if you need help
