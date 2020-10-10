@@ -17,11 +17,9 @@
 
 Update 10/10/20
 
--Support for new season
-
--Rewrite code
-
--status in beta have errors
+- Support for new season
+- Rewrite code
+- status in beta have errors
 
 - add me in discord if you need help
 - jordan123pal#4855
