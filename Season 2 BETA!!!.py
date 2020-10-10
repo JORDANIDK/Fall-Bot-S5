@@ -96,7 +96,7 @@ def main():
     if menu == 1:
         print("starting minimeze console pls...")
         time.sleep(3)
-        a.result()
+        a.lobby()
     else:
         print("good bye")
 
