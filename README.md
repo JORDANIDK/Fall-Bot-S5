@@ -21,6 +21,7 @@ Update 10/10/20
 - Rewrite code
 - status in beta have errors
 
+Errors talk with me
 - add me in discord if you need help
 - jordan123pal#4855
 
