@@ -15,11 +15,17 @@
 5.- ready.
 
 # Changelogs
-Update 10/10/20
-
+Update 
+10/10/20
 - Support for new season
 - Rewrite code
 - status in beta have errors (1080 and 720 Work fine, other resolution idk)
+
+14/10/2020
+- Stable mode and Beta mode in a file
+- Optimize code
+- More checks of erros
+
 
 # Errors talk with me
 - add me in discord if you need help
