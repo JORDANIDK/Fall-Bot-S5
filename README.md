@@ -14,6 +14,8 @@
 
 5.- ready.
 
+# Always after a update download all files 
+
 # Changelogs
 Update 
 10/10/20
