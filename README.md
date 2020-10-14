@@ -24,7 +24,7 @@ Update
 14/10/2020
 - Stable mode and Beta mode in a file
 - Optimize code
-- More checks of erros
+- Add More checks of errors
 
 
 # Errors talk with me
