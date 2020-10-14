@@ -85,7 +85,7 @@ class bot:
                 self.exp += 15
                 print("You have won", self.money, "money")
                 print("You have won", self.exp, "exp")
-                time.sleep(3)
+                time.sleep(5)
                 pyautogui.press("space")
                 self.ingame()
 
@@ -97,7 +97,7 @@ class bot:
                 self.exp += 15
                 print("You have won", self.money, "money")
                 print("You have won", self.exp, "exp")
-                time.sleep(3)
+                time.sleep(5)
                 pyautogui.press("space")
                 self.ingame()
 
@@ -203,7 +203,7 @@ class bot1:
                 self.exp += 15
                 print("You have won", self.money, "money")
                 print("You have won", self.exp, "exp")
-                time.sleep(3)
+                time.sleep(5)
                 pyautogui.press("space")
                 self.ingame()
 
@@ -219,7 +219,7 @@ class bot1:
                 self.exp += 15
                 print("You have won", self.money, "money")
                 print("You have won", self.exp, "exp")
-                time.sleep(3)
+                time.sleep(5)
                 pyautogui.press("space")
                 self.ingame()
 
