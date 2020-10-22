@@ -29,8 +29,8 @@ Update
 - Add More checks of errors
 
 21/10/20
--add support for new mode Slime Survivors
--fixed little bugs
+- add support for new mode Slime Survivors
+- fixed little bugs
 
 
 # Errors talk with me
