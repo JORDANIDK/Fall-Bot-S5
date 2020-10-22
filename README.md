@@ -28,6 +28,10 @@ Update
 - Optimize code
 - Add More checks of errors
 
+21/10/20
+-add support for new mode Slime Survivors
+-fixed little bugs
+
 
 # Errors talk with me
 - add me in discord if you need help
