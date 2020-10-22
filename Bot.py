@@ -69,6 +69,7 @@ class bot:
             self.error()
             ok2 = pyautogui.locateOnScreen(self.ok_path, confidence=0.8)
             if ok2 is not None:
+                time.sleep(1)
                 pyautogui.press("space")
                 self.results()
                 break
@@ -90,6 +91,7 @@ class bot:
                 self.ingame()
 
             if lvlup is not None:
+                print("lvl Up Detected")
                 pyautogui.press("space")
                 time.sleep(3)
                 pyautogui.press("space")
@@ -98,6 +100,7 @@ class bot:
                 print("You have won", self.money, "money")
                 print("You have won", self.exp, "exp")
                 time.sleep(5)
+                pyautogui.press("space")
                 pyautogui.press("space")
                 self.ingame()
 
@@ -118,7 +121,6 @@ class bot:
             pyautogui.press("space")
             time.sleep(1)
             pyautogui.click()
-            pyautogui.press("enter")
             self.lobby()
 
 
@@ -153,7 +155,6 @@ class bot1:
 
     def ingame(self):
         while True:
-            print("-----> Waiting ingame")
             ingame = pyautogui.locateOnScreen("1080/ingame.png")
             ingame1 = pyautogui.locateOnScreen("720/ingame.png")
             ingame2 = pyautogui.locateOnScreen("1080/ingame.png", confidence=0.6)
@@ -168,7 +169,6 @@ class bot1:
 
     def exit(self):
         while True:
-            print("-----> Waiting exit")
             exits = pyautogui.locateOnScreen("1080/exit.png")
             exits1 = pyautogui.locateOnScreen("720/exit.png")
             exits2 = pyautogui.locateOnScreen("1080/exit.png", confidence=0.6)
@@ -187,7 +187,6 @@ class bot1:
 
     def result(self):
         while True:
-            print("-----> Waiting results")
             results = pyautogui.locateOnScreen("1080/confirm.png")
             results1 = pyautogui.locateOnScreen("720/confirm.png")
             results2 = pyautogui.locateOnScreen("1080/confirm.png", confidence=0.6)
@@ -205,6 +204,7 @@ class bot1:
                 print("You have won", self.exp, "exp")
                 time.sleep(5)
                 pyautogui.press("space")
+                pyautogui.press("space")
                 self.ingame()
 
             lvlup = pyautogui.locateOnScreen("1080/lvlup.png")
@@ -220,6 +220,7 @@ class bot1:
                 print("You have won", self.money, "money")
                 print("You have won", self.exp, "exp")
                 time.sleep(5)
+                pyautogui.press("space")
                 pyautogui.press("space")
                 self.ingame()
 
@@ -237,6 +238,18 @@ def checkresolution():
             return bot(resolution="720")
 
 
+def checkresolutionEvent():
+    fullhdEvent = pyautogui.locateOnScreen("1080/Event/lobby.png", confidence=0.8)
+    if fullhdEvent is not None:
+        print("Full HD detected")
+        return bot(resolution="1080/Event")
+
+    hdEvent = pyautogui.locateOnScreen("720/Event/lobby.png", confidence=0.8)
+    if hdEvent is not None:
+        print("HD detected")
+        return bot(resolution="720/Event")
+
+
 a = bot1()
 
 print("Welcome to Fall guys Bot")
@@ -244,6 +257,7 @@ print("         by jordan123pal")
 print()
 print("1 = Stable Mode, 1080 and 720 work fine ")
 print("2 = Beta Mode, other resolutions maybe with errors")
+print("3 = Event Mode 1080 and 720")
 
 menu = int(input("enter you option : "))
 
@@ -252,7 +266,17 @@ if menu == 1:
     check = checkresolution()
     if check is not None:
         check.lobby()
+
 if menu == 2:
     print("starting minimeze console pls...")
     time.sleep(3)
     a.lobby()
+
+if menu == 3:
+    print("starting minimeze console pls...")
+    check1 = checkresolutionEvent()
+    time.sleep(3)
+    if check1 is not None:
+        check1.lobby()
+else:
+    print("Good Bye")
