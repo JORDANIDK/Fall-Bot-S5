@@ -24,7 +24,7 @@ download last build
 Update 
 04/01/2021
 - add cute gui and freandly
-- add Custom Folder for users add own pics
+- add Custom Folder for users add own pics, just need change a Custom in ComboBox
 - add Checker for updates and downloader
 - add button for reset stats
 - Fixed errors
