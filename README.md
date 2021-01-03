@@ -29,6 +29,8 @@ Update
 - add button for reset stats
 - Fixed errors
 
+https://github.com/JORDANIDK/Fall-guys-BOT/blob/master/gui.png?raw=true
+
 
 
 # Errors talk with me
