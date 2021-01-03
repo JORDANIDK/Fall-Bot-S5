@@ -16,13 +16,19 @@
 
 or
 
-download lasted build 
+download last build
 
 # Always after a update download all files 
 
 # Changelogs
 Update 
 04/01/2021
+- add cute gui and freandly
+- add Custom Folder for users add own pics
+- add Checker for updates and downloader
+- add button for reset stats
+- Fixed errors
+
 
 
 # Errors talk with me
