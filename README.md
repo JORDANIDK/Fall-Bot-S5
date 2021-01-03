@@ -1,4 +1,4 @@
-# Fall guys bot SEASON 2
+# Fall guys bot SEASON 3
 
 # Instructions
 
@@ -14,23 +14,15 @@
 
 5.- ready.
 
+or
+
+download lasted build 
+
 # Always after a update download all files 
 
 # Changelogs
 Update 
-10/10/20
-- Support for new season
-- Rewrite code
-- status in beta have errors (1080 and 720 Work fine, other resolution idk)
-
-14/10/2020
-- Stable mode and Beta mode in a file
-- Optimize code
-- Add More checks of errors
-
-21/10/20
-- add support for new mode Slime Survivors
-- fixed little bugs
+04/01/2021
 
 
 # Errors talk with me
