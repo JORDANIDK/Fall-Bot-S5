@@ -4,19 +4,10 @@
 
 1.- place the game in English
 
-2.- Install python (3.8.5 32 bits)
+3.- Go github download repo.
 
-2.- Open .bat with admin for install libs.
+4.- Run fall guys bot.exe
 
-3.- open fall guys.
-
-4.- open bot, enter 1 and go fall guys lobby.
-
-5.- ready.
-
-or
-
-download last build
 
 # Always after a update download all files 
 
