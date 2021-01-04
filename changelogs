@@ -1,3 +1,7 @@
-- add GUI
-- Update for season 3
-- Fixed errors
+Update 04/01/2021
+* add cute gui and freandly
+* add Custom Folder for users add own pics, just need change a Custom in ComboBox
+* add Checker for updates and downloader
+* add button for reset stats
+* Fixed errors
+* optimized code, less cpu usage and more fast
