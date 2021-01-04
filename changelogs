@@ -5,3 +5,13 @@ Update 04/01/2021
 * add button for reset stats
 * Fixed errors
 * optimized code, less cpu usage and more fast
+
+Update 05/01/2021
+* Little change to gui
+* Fixed Click.Stop High usage CPU
+* Add statusAC (status for anti-cheat)
+* Add Button.Problems? (This is for check you have all files need for work program)
+* Add Button.Faq (For FAQS)
+* Change any time.sleeps()
+
+
