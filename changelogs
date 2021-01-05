@@ -1,4 +1,4 @@
-Update 04/01/2021
+Update 1.1  04/01/2021
 * add cute gui and freandly
 * add Custom Folder for users add own pics, just need change a Custom in ComboBox
 * add Checker for updates and downloader
@@ -6,7 +6,7 @@ Update 04/01/2021
 * Fixed errors
 * optimized code, less cpu usage and more fast
 
-Update 05/01/2021
+Update 1.2  05/01/2021
 * Little change to gui
 * Fixed Click.Stop High usage CPU
 * Add statusAC (status for anti-cheat)
