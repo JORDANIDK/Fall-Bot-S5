@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>779</width>
-    <height>657</height>
+    <width>625</width>
+    <height>584</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -62,13 +62,16 @@
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
       <widget class="QPushButton" name="Start">
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>100</y>
-         <width>201</width>
-         <height>101</height>
+         <y>80</y>
+         <width>171</width>
+         <height>81</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -100,10 +103,10 @@ color:#FFF
       <widget class="QLabel" name="label">
        <property name="geometry">
         <rect>
-         <x>250</x>
+         <x>180</x>
          <y>10</y>
-         <width>271</width>
-         <height>61</height>
+         <width>211</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -138,10 +141,10 @@ color:#FFF
       <widget class="QPushButton" name="Stop">
        <property name="geometry">
         <rect>
-         <x>310</x>
-         <y>100</y>
-         <width>201</width>
-         <height>101</height>
+         <x>210</x>
+         <y>80</y>
+         <width>171</width>
+         <height>81</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -173,10 +176,10 @@ color:#FFF
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>590</x>
-         <y>100</y>
-         <width>161</width>
-         <height>61</height>
+         <x>410</x>
+         <y>60</y>
+         <width>151</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -220,8 +223,8 @@ color:#FFF
       <widget class="QComboBox" name="ListRes">
        <property name="geometry">
         <rect>
-         <x>610</x>
-         <y>180</y>
+         <x>420</x>
+         <y>120</y>
          <width>121</width>
          <height>31</height>
         </rect>
@@ -273,8 +276,8 @@ QListView
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>250</y>
-         <width>491</width>
+         <y>200</y>
+         <width>371</width>
          <height>51</height>
         </rect>
        </property>
@@ -307,10 +310,10 @@ color:#FFF
       <widget class="QLabel" name="status">
        <property name="geometry">
         <rect>
-         <x>270</x>
-         <y>360</y>
-         <width>161</width>
-         <height>51</height>
+         <x>230</x>
+         <y>270</y>
+         <width>151</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -346,9 +349,9 @@ color:#FFF
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>360</y>
-         <width>151</width>
-         <height>51</height>
+         <y>270</y>
+         <width>141</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -384,9 +387,9 @@ color:#FFF
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>430</y>
-         <width>151</width>
-         <height>51</height>
+         <y>330</y>
+         <width>141</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -422,9 +425,9 @@ color:#FFF
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>500</y>
-         <width>151</width>
-         <height>51</height>
+         <y>390</y>
+         <width>141</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -459,8 +462,8 @@ color:#FFF
       <widget class="QPushButton" name="change">
        <property name="geometry">
         <rect>
-         <x>610</x>
-         <y>230</y>
+         <x>410</x>
+         <y>170</y>
          <width>121</width>
          <height>61</height>
         </rect>
@@ -494,10 +497,10 @@ color:#FFF
       <widget class="QPushButton" name="info">
        <property name="geometry">
         <rect>
-         <x>640</x>
-         <y>540</y>
-         <width>131</width>
-         <height>71</height>
+         <x>490</x>
+         <y>490</y>
+         <width>121</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -529,10 +532,10 @@ color:#FFF
       <widget class="QPushButton" name="donate">
        <property name="geometry">
         <rect>
-         <x>500</x>
-         <y>540</y>
-         <width>131</width>
-         <height>71</height>
+         <x>350</x>
+         <y>490</y>
+         <width>141</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -564,10 +567,10 @@ color:#FFF
       <widget class="QPushButton" name="reset">
        <property name="geometry">
         <rect>
-         <x>270</x>
-         <y>430</y>
-         <width>161</width>
-         <height>61</height>
+         <x>230</x>
+         <y>320</y>
+         <width>151</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -579,7 +582,7 @@ color:#FFF
        <property name="font">
         <font>
          <family>Segoe UI Black</family>
-         <pointsize>10</pointsize>
+         <pointsize>14</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -599,10 +602,10 @@ color:#FFF
       <widget class="QPushButton" name="checkupdate">
        <property name="geometry">
         <rect>
-         <x>350</x>
-         <y>540</y>
+         <x>210</x>
+         <y>490</y>
          <width>141</width>
-         <height>71</height>
+         <height>51</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -635,9 +638,47 @@ color:#FFF
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>590</y>
+         <y>510</y>
          <width>131</width>
          <height>21</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel{
+background-color: rgb(85, 85, 255);
+border: none;
+border-radius: 5px;
+color:#FFF
+}</string>
+       </property>
+       <property name="text">
+        <string>Version : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="statusAC">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>450</y>
+         <width>131</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -663,10 +704,45 @@ color:#FFF
 }</string>
        </property>
        <property name="text">
-        <string>Version : </string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="problems">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>390</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(85, 170, 255);
+border: 2px solid black;
+border-radius: 10px;
+color:#FFF
+}</string>
+       </property>
+       <property name="text">
+        <string>Problem? Click Me</string>
        </property>
       </widget>
      </widget>
@@ -678,7 +754,7 @@ color:#FFF
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>779</width>
+     <width>625</width>
      <height>21</height>
     </rect>
    </property>
