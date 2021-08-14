@@ -1,11 +1,14 @@
 # Fall Bot Season 5
 
+# Download
+ https://www.dropbox.com/s/93skdzlwgjqyyxh/Bot.exe?dl=1
+
 # Instructions
 
-1.- For buy jordan123pal#4855
+1.- For buy a premium account jordan123pal#4855
 
 # FAQ
-1.- Buy?
+1.- Buy? or ask?
   jordan123pal#4855
 
 # Changelogs
