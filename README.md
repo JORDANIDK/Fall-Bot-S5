@@ -2,26 +2,25 @@
 
 # Instructions
 
-1.- now it is a private project if you want a invite contact with me jordan123pal#4855
+1.- For buy jordan123pal#4855
 
 # FAQ
-1.- invite?
+1.- Buy?
   jordan123pal#4855
 
 # Changelogs
 
-#Update 2.5  28/07/2021
-* Fixed all problems with season 5
-* New desing 
-* add Random movements
-* add Auto-Updater
+ #13/08/2021
 
-#Update 2.6 29/05/2021
-* Optimized cpu usage
-* Fixed new lvl up
-* add Changelogs in update
+- Fixed lvlUp When you up a lot
 
-#Soon more idioms support
+- Much User want enter in project
+  Now Exists User free and Premium accounts
+
+- Beta Testers have a premium lifetime
+  account		
+
+		
 
 
 # Errors talk with me.
